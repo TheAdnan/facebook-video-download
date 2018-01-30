@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook video download",
+  "version": "1.0",
+  "description": "Download Facebook videos",
+  "icons": {
+    "48": "icons/fb-dl.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "downloads"
+  ],
+  "browser_action": {
+    "default_icon": "icons/fb-dl.png",
+    "default_title": "Download Facebook video"
+  },
+  "background":
+    {
+      "scripts": ["index.js"]
+    }
+}
